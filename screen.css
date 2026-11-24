@@ -1,0 +1,31 @@
+section{
+    background: #580909;
+    color: aliceblue;
+    font-size: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+    clip-path: polygon(
+        0 0,
+        100% 0,
+        100% 85%,
+        87.5% 100%,
+        0 100%);
+
+}
+h2{
+    color: black;
+}
+.class1 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+   
+}
+.class1 h2{
+   font-size: 50px;
+}
+p{
+    font-size: 20px;
+    color: #580909;
+    text-align: left;
+}

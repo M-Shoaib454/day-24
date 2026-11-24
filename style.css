@@ -1,0 +1,187 @@
+.logo img {
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eee8e8d5;
+    clip-path: polygon(
+        0 0,
+        100% 0,
+        100% 85%,
+        87.5% 100%,
+        0 100%);
+}
+
+.container {
+    width: 95%;
+    margin: 10px auto;
+    background-color: white;
+}
+
+/* Navbar */
+
+header {
+    height: 85px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.logo {
+    width: 55px;
+    height: 55px;
+    border: 3px solid #923333;
+    border-radius: 50%;
+    color: #923333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+/* Main Section */
+
+.submission {
+    background-color: #923333;
+    margin: 0 12px;
+    min-height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 55px 65px;
+    gap: 60px;
+}
+
+/* Left Side */
+
+.left {
+    width: 45%;
+    margin-top: 20px;
+}
+
+.left h1 {
+    color: white;
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.left p {
+    color: black;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.left h3 {
+    color: black;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Right Side */
+
+.right {
+    width: 45%;
+    margin-top: 0;
+}
+
+.right input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+.right input::placeholder {
+    color: white;
+}
+
+.right h2 {
+    color: black;
+    font-size: 22px;
+    margin-top: 8px;
+}
+
+.right p {
+    color: black;
+    font-size: 11px;
+    margin-top: 5px;
+}
+
+/* Award Section */
+
+.award {
+    margin-top: 15px;
+}
+
+.award label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+.award input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    accent-color: white;
+}
+
+.award textarea {
+    width: 100%;
+    height: 65px;
+    padding: 10px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    font-family: Arial, sans-serif;
+    resize: vertical;
+}
+
+.award textarea::placeholder {
+    color: white;
+    font-size: 11px;
+}
+.submit-btn {
+    width: 100%;
+    padding: 13px;
+    margin-top: 15px;
+    background-color: white;
+    color: #555;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.submit-btn span {
+    font-size: 22px;
+    margin-right: 8px;
+    color: green;
+}
+
+.submit-btn:hover {
+    background-color: #eeeeee;
+}
+
+.submission-heading {
+    color: white;
+    font-size: 48px;
+    margin-bottom: 15px;
+}.right {
+    position: relative;
+}
